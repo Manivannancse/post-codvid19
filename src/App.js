@@ -4,6 +4,7 @@ import DashboardContainer from './container/dashboardContainer';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import common from './constant/label-constant.json';
+import "antd/dist/antd.css";
 
 const resources = {
   en: {

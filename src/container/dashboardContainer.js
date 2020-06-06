@@ -2,8 +2,8 @@ import React from 'react'
 import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import AppLayout from '../component/layout';
 import FormComponent from '../component/form';
-import Login from '../component/login';
 import ListPage from '../component/list-page';
+import LoginContainer from './LoginContainer';
 
 const DashboardContainer = ({ t }) => {
   return (
@@ -14,7 +14,7 @@ const DashboardContainer = ({ t }) => {
             <FormComponent />
           </Route>
           <Route exact path='/login'>
-            <Login />
+            <LoginContainer />
           </Route>
           <Route exact path='/list'>
             <ListPage />
