@@ -5,7 +5,7 @@ import FormComponent from '../component/form';
 import Login from '../component/login';
 import ListPage from '../component/list-page';
 
-const DashboardContainer = () => {
+const DashboardContainer = ({ t }) => {
   return (
     <AppLayout>
       <Router>
@@ -20,7 +20,7 @@ const DashboardContainer = () => {
             <ListPage />
           </Route>
           <Route path="*">
-            <h1>Page Not Found</h1>
+            <h1>{t('common.notfound')}</h1>
           </Route>
         </Switch>
       </Router>

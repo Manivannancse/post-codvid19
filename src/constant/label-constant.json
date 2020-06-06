@@ -1,0 +1,137 @@
+{
+  "family_details": {
+    "title": "Family Details of the Participant",
+      "responder": "Name of the Respondent:",
+        "family_members": {
+      "title": "Family Details:",
+        "name": "Name",
+          "gender": "Gender",
+            "age": "Age",
+              "relationship": "Relationship",
+                "pwd": "PWD Yes/No",
+                  "education": "Education",
+                    "occupation": "Occupation",
+                      "monthly_income": "Monthly income"
+    },
+    "family_type": {
+      "title": "Family type:",
+        "joint": "Joint",
+          "nuclear": "Nuclear"
+    },
+    "village_name": "Name of the village/Area:",
+      "commune_name": "Name of the commune/Municipality:",
+        "religion": [
+          "Hindu",
+          "Muslim",
+          "Christian",
+          "Others"
+        ],
+          "community": [
+            "ST",
+            "SC",
+            "OBC",
+            "MBC",
+            "Others"
+          ]
+  },
+  "food_and_shelter": {
+    "title": "Food & Shelter:",
+      "have_ration_card": "Does your family have a ration card ?",
+        "have_received_govt_relief": "Have you recently received the Government's relief materials through public distribution shops ?",
+          "have_received_other_relief": "Do any political parties/private organisations/NGOs supported your family by providing vegetable and  grocery items recently?",
+            "have_enough_grocery": "Does your family have sufficient grocery items at least for a month?",
+              "is_own_house": "Are you living in ?",
+                "houser_type_value": [
+                  "Own house",
+                  "Rented house"
+                ],
+                  "is_rent_payed": "If rented, Did you pay rent during this Lockdown?",
+                    "rent_amount": "If yes, How much ?",
+                      "rent_amount_type": [
+                        "Less than Rs. 2,000",
+                        "Rs. 2,000 to 5,000",
+                        "Rs.5,000 t0 8,000",
+                        "Above Rs.8,000"
+                      ],
+                        "house_type": "In what type of house do you live ?",
+                          "house_type_labels": [
+                            "Concrete house",
+                            "Sheet house",
+                            "Hut",
+                            "Other"
+                          ],
+                            "have_water_supply": "Does your house have an adequate water supply?",
+                              "have_electricty": "Does your house have a proper electricity supply?",
+                                "have_tiolet": "Do you have a toilet facility?",
+                                  "toilet_types": [
+                                    "Public Toilet",
+                                    "Inhouse Toilet",
+                                    "Open Defecation"
+                                  ]
+  },
+  "health": {
+    "title": "Health",
+      "is_anyone_infected": "Are there any of your family members infected/treated with COVID-19?",
+        "is_specfiy": "If yes, Specify Who?",
+          "is_health_care_nearby": "Is there any health care center near your location?",
+            "is_other_issue": "Do any of your family members undergo any health issues during this lockdown?",
+              "able_to_access_health_care": "Are you able to access health care services ? ",
+                "reason_for_unable_heath_care_access": " If No, Specify the reasons",
+                  "is_anyone_metnal_health_issue": "Do any of your family members have mental health-related issues ?",
+                    "type_of_mental_health_issue": "If yes , What kind of mental health issues?",
+                      "type_of__mental_health_issues": [
+                        "Depression",
+                        "Stress",
+                        "Anxiety",
+                        "Frustration",
+                        "Substance use"
+                      ],
+                        "how_long_mental_health_issue": "And for how long?",
+                          "do_you_know_reason_for_mental_health_issue": "If yes, Do you know the reason for mental health issues? ",
+                            "reason_for_mental_health_issue": "If Yes, Please share the causes of Mental health"
+  },
+  "education": {
+    "title": "Education",
+      "is_any_school_children": "Do you have any school-going children in your house/family? ",
+        "no_of_school_chilren": "If Yes, How many of them are going to school?",
+          "reason_for_not_going_school": "If no, specify the reason",
+            "will_send_children_to_school": "Will you send your children to school/College after lockdown?",
+              "has_internet_access": "Are your children having access to internet facilities to attend online classes ?  ",
+                "has_computer": "Does you own computer/laptop/tablet for kids online education?"
+  },
+  "employment": {
+    "title": "Employment and Economic level of family",
+      "current_status": "What is the current status of your job during lockdown? ",
+        "status_options": [
+          "Working /No change",
+          "Laid off",
+          "Work from home",
+          "Unemployed"
+        ],
+          "how_do_manage": "How do you manage your family expenses during COVID-19 lockdown?",
+            "type_of_manage": [
+              "Savings",
+              "Loan",
+              "Support from govt.",
+              "mortgage properties"
+            ],
+              "received_direct_govt_cash": "Have you received State and Central Government Direct Cash in your bank account? ",
+                "amount_received_from_govt": "If Yes, How much?",
+                  "is_business_support_from_govt": "Are you/family eligible for stimulus support from the Govt.  for family business/ self-employment? ",
+                    "available_items": "From the following list, please tick (✓) the items available in your house",
+                      "available_item_names": [
+                        "TV",
+                        "Smart Phone",
+                        "Computer/Laptop",
+                        "Gas stove",
+                        "Fridge",
+                        "Washing Machine",
+                        "Bicycle",
+                        "Motor Vehicle"
+                      ],
+                        "three_need_for_recovery": "What are the three most essential needs of your family to recover from this crisis situation?"
+  },
+  "common": {
+    "notfound": "Page Not Found"
+  }
+}

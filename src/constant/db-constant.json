@@ -1,0 +1,67 @@
+{
+  "family_details": {
+    "responder": "",
+      "family_members": [
+        {
+          "name": "",
+          "gender": "",
+          "age": "",
+          "relationship": "",
+          "pwd": "",
+          "education": "",
+          "occupation": "",
+          "monthly_income": ""
+        }
+      ],
+        "family_type": "",
+          "village_name": "",
+            "commune_name": "",
+              "religion": "",
+                "community": ""
+  },
+  "food_and_shelter": {
+    "have_ration_card": "",
+      "have_received_govt_relief": "",
+        "have_received_other_relief": "",
+          "have_enough_grocery": "",
+            "is_own_house": "",
+              "is_rent_payed": "",
+                "rent_amount": "",
+                  "house_type": "",
+                    "have_water_supply": "",
+                      "have_electricty": "",
+                        "have_tiolet": ""
+  },
+  "health": {
+    "is_anyone_infected": "",
+      "infected_person": "",
+        "is_health_care_nearby": "",
+          "health_care": "",
+            "is_other_issue": "",
+              "issue_name": "",
+                "able_to_access_health_care": "",
+                  "reason_for_unable_heath_care_access": "",
+                    "is_anyone_metnal_health_issue": "",
+                      "type_of_mental_health_issue": "",
+                        "how_long_mental_health_issue": "",
+                          "do_you_know_reason_for_mental_health_issue": "",
+                            "reason_for_mental_health_issue": ""
+  },
+  "education": {
+    "is_any_school_children": "",
+      "no_of_school_chilren": "",
+        "reason_for_not_going_school": "",
+          "will_send_children_to_school": "",
+            "has_internet_access": "",
+              "has_computer": ""
+  },
+  "employment": {
+    "current_status": "",
+      "how_do_manage": "",
+        "received_direct_govt_cash": "",
+          "amount_received_from_govt": "",
+            "is_business_support_from_govt": "",
+              "available_items": "",
+                "three_need_for_recovery": ""
+  }
+}
